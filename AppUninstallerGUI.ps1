@@ -1,3 +1,5 @@
+# Taken from https://github.com/farag2/Windows-10-Sophia-Script/blob/master/Sophia/PowerShell%205.1/Sophia.psm1
+
 	[CmdletBinding()]
 	param
 	(
