@@ -33,7 +33,7 @@
         "Microsoft.Windows.Photos",
         "Microsoft.Photos.MediaEngineDLC",
     
-        # Xbox app group
+        # Xbox apps
 		"Microsoft.GamingServices",
         "Microsoft.XboxIdentityProvider",
         "Microsoft.Xbox.TCUI",
@@ -255,7 +255,7 @@
 		}
         Write-Host "Uninstalling selected apps..."
 		$PackagesToRemove | Remove-AppxPackage -AllUsers:$CheckBoxForAllUsers.IsChecked
-        Write-Host "Done."
+        Write-Host "Uninstalled selected apps."
 	}
 
 	function CheckBoxClick
