@@ -2,14 +2,14 @@
 This repository contains files that CleanWin downloads while performing a task that requires internet connection (for instance: downloading Microsoft.VCLibs appx file that which is a dependency required to install WinGet).
 
 Description of files:   
-**NetTestFile**: Used to test internet connection of users because I'm not yet aware of any other way to do that  
-**Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle**: WinGet-CLI AppInstaller bundle file  
-**Microsoft.VCLibs.140.00.UWPDesktop_14.0.29231.0_x64__8wekyb3d8bbwe.Appx**: A dependency required for WinGet to install properly  
-**ViveTool.exe**: An executable that I use to hide the "Browser settings - Restore recommended" ~suggestion~ ad from Settings  
-**Albacore.ViVe.dll**: A DLL file that ViVeTool uses  
-**connect.cmd**: A cmd script to remove Connect app bundled in Windows 10 1909 and below  
-**install_wim_tweak.exe**: An executable required by connect.cmd  
-**settings.json**: WinGet settings file with all experimental features enabled, though this is specifically used to enable the "uninstall" feature that is currently used to uninstall 64-bit versions of OneDrive
+**mach2.exe** and ***msdia140.dll** are from the [mach2](https://github.com/riverar/mach2/) project by [riverar](https://github.com/riverar).  
+**Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle**: WinGet AppInstaller bundle file.    
+**Microsoft.VCLibs.140.00.UWPDesktop_14.0.29231.0_x64__8wekyb3d8bbwe.Appx**: A dependency required for WinGet to install properly.    
+**ViveTool.exe**: An executable that I use to hide the "Browser settings - Restore recommended" ~suggestion~ ad from Settings.    
+**Albacore.ViVe.dll**: A DLL file that ViVeTool uses.   
+**connect.cmd**: A cmd script to remove Connect app bundled in Windows 10 1909 and below.   
+**install_wim_tweak.exe**: An executable required by connect.cmd.  
+**settings.json**: WinGet settings file with all experimental features enabled.
 
 
 
