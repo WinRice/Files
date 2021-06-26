@@ -1,7 +1,7 @@
 # Files
 This repository contains files that CleanWin downloads while performing a task that requires internet connection (for instance: downloading Microsoft.VCLibs appx file that which is a dependency required to install WinGet).
 
-Description of files:   
+## Description of files:   
 **mach2.exe** and ***msdia140.dll** are from the [mach2](https://github.com/riverar/mach2/) project by [riverar](https://github.com/riverar).  
 **Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle**: WinGet AppInstaller bundle file.    
 **Microsoft.VCLibs.140.00.UWPDesktop_14.0.29231.0_x64__8wekyb3d8bbwe.Appx**: A dependency required for WinGet to install properly.    
@@ -13,8 +13,11 @@ Description of files:
 
 
 
-# Credits   
-ViVeTool and its dependencies are copyrighted content of https://github.com/thebookisclosed, licensed under the GPL v3 license.    
+## Credits   
+ViVeTool and its dependencies are copyrighted content of [thebookisclosed](https://github.com/thebookisclosed), licensed under the GPL v3 license.    
+mach2 and its dependencies are copyrighted content of [riverar](https://github.com/riverar), licensed under the GPL v3 license.
 Microsoft.DesktopAppInstaller and its dependencies are copyrighted content of Microsoft, with WinGet-CLI licensed under the MIT license
 
 The authors of connect.cmd and install_wim_tweak.exe are unknown. If you know them, or if you are them, please mail me [here](mailto:pratyakshm@protonmail.com) with your name or online alias to get your name written here.
+
+Takedown requests are respected.
