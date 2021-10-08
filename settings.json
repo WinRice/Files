@@ -2,20 +2,15 @@
     "$schema": "https://aka.ms/winget-settings.schema.json",
 
     // For documentation on these settings, see: https://aka.ms/winget-settings
-    // "source": {
-    //    "autoUpdateIntervalInMinutes": 5
-    // },
-    "visual": {
-        "progressBar": "accent"
+    "source": {
+        "autoUpdateIntervalInMinutes": 3
     },
-    "experimentalFeatures": {
-        "experimentalCmd": true,
-        "experimentalArg": false,
-        "experimentalMSStore": true,
-        "list": true,
-        "upgrade": true,
-        "import": true,
-        "uninstall": true,
-        "restSource": true
+    "installBehavior": {
+        "preferences": {
+            "scope": "user"
+        }
     },
+    "telemetry": {
+        "disable": true
+    }
 }
